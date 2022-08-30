@@ -65,7 +65,7 @@ public class OpenController extends Controller implements Initializable {
 			@Override
 			public void run() {
 				// TODO Auto-generated method stub
-				comServ.nextPage(opening, "/Netflix/SelectUser.fxml");
+				comServ.nextPage(opening, "/Netflix/Welcome.fxml");
 			}
 		};
 		timer.schedule(task3, 5000);
